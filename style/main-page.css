@@ -1,0 +1,41 @@
+.opacity-50 { opacity: .5; }
+.opacity-75 { opacity: .75; }
+
+.nav__title {
+  width: auto;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.list-group {
+  width: auto;
+  max-width: 800px;
+  margin: 4rem auto;
+
+  list-style: none;
+}
+
+.episode {
+  margin-bottom: 30px;
+}
+
+.episode__link {
+  padding: 30px;
+}
+
+.episode__poster {
+  width: 100px;
+  height: 160px;
+  margin-right: 50px;
+}
+
+.episode__summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+
+  font-size: 16px;
+  line-height: 1;
+
+}
